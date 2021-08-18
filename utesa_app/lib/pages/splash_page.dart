@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:utesa_app/pages/login_page.dart';
 import 'package:utesa_app/utils/color.dart';
 
 class SplashPage extends StatefulWidget {
