@@ -12,14 +12,14 @@ class SplashPage extends StatefulWidget {
 class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
-    // TODO: implement initState
+    // ignore: todo
+    //TODO: implement initState
     super.initState();
-    {
-      Timer(const Duration(milliseconds: 4000), () {
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => LoginPage()));
-      });
-    }
+
+    Timer(const Duration(milliseconds: 4000), () {
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => LoginPage()));
+    });
   }
 
   @override
@@ -33,7 +33,7 @@ class _SplashPageState extends State<SplashPage> {
               begin: Alignment.topCenter),
         ),
         child: Center(
-          child: Image.asset("assets.utes.png"),
+          child: Image.asset("assets/images/utes.png"),
         ),
       ),
     );
