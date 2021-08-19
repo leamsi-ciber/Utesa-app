@@ -12,6 +12,7 @@ class SplashPage extends StatefulWidget {
 class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     super.initState();
     {
@@ -33,7 +34,7 @@ class _SplashPageState extends State<SplashPage> {
               begin: Alignment.topCenter),
         ),
         child: Center(
-          child: Image.asset("assets/utes.png"),
+          child: Image.asset("assets/images/utes.png"),
         ),
       ),
     );
